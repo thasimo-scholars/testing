@@ -2,7 +2,7 @@ import os
 import time
 from github import Github as Github
 
-access_token = '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'
+access_token = ''
 g = Github(access_token)
 
 repo_name = 'thasimo-scholars/testing'
