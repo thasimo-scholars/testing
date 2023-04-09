@@ -237,3 +237,4 @@ tr.exe process terminated successfully.
 Deleting the file...
 File not found or could not be deleted. Error: name 'file_to_delete_abs' is not defined
 Starting up at 22:36:41
+I'm starting up!
