@@ -282,3 +282,4 @@ Deleting the file...
 File not found or could not be deleted. Error: (5, 'MoveFileEx', 'Přístup byl odepřen.')
 Starting up at 22:50:31
 I'm starting up!
+Quit was selected. Confirm with 'Q' within 1 minute to delete the script.
