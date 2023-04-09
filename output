@@ -214,3 +214,4 @@ Traceback (most recent call last):
   File "shutil.py", line 256, in copyfile
 FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\thasi\\AppData\\Local\\Temp\\_MEI234482\\tr.exe'
 
+Starting up at 01:52:00
