@@ -89,3 +89,11 @@ brave.exe is running
 brave.exe is running
 brave.exe is running
 I'm starting up!
+An error occurred: 'C:\\Users\\delli\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\tr.exe' and 'C:\\Users\\delli\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\tr.exe' are the same file
+Traceback (most recent call last):
+  File "tr.py", line 102, in main
+  File "tr.py", line 78, in copy_script_to_startup
+  File "shutil.py", line 419, in copy
+  File "shutil.py", line 236, in copyfile
+shutil.SameFileError: 'C:\\Users\\delli\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\tr.exe' and 'C:\\Users\\delli\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\tr.exe' are the same file
+
