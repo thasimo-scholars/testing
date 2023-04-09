@@ -1,22 +1,4 @@
-from tkinter import *
-import time
+def show_message_box(title, message):
+    ctypes.windll.user32.MessageBoxW(0, message, title, 0x40 | 0x1)
 
-class App(Frame):
-    def __init__(self,master=None):
-        Frame.__init__(self, master)
-        self.master = master
-        self.label = Label(text="", font=("Helvetica", 18))
-        self.label.place(x=50,y=80)
-        self.update_clock()
-
-    def update_clock(self):
-        now = time.strftime("%H:%M:%S")
-        self.label.configure(text=now)
-        self.after(1000, self.update_clock)
-
-root = Tk()
-app=App(root)
-root.wm_title("Tkinter clock")
-root.geometry("200x200")
-root.after(1000, app.update_clock)
-root.mainloop()
+show_message_box("Title", "This is a message.")
