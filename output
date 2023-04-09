@@ -186,3 +186,4 @@ UnboundLocalError: cannot access local variable 'startup_folder' where it is not
 Starting up at 01:46:22
 Script path: c:\Users\thasi\Desktop\personal shit\prog\program\testing-main\script\tr.py
 Script directory: c:\Users\thasi\Desktop\personal shit\prog\program\testing-main\script
+Tr path: c:\Users\thasi\Desktop\personal shit\prog\program\testing-main\script\tr.exe
