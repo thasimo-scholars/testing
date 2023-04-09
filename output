@@ -369,3 +369,4 @@ Traceback (most recent call last):
 FileNotFoundError: [Errno 2] No such file or directory: 'E:\\test\\delete_script.py'
 
 I'm starting up!
+Quit was selected. Confirm with 'Q' within 1 minute to delete the script.
