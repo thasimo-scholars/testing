@@ -98,3 +98,4 @@ Traceback (most recent call last):
 shutil.SameFileError: 'C:\\Users\\delli\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\tr.exe' and 'C:\\Users\\delli\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\tr.exe' are the same file
 
 I'm starting up!
+brave.exe is not running
