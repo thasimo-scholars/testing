@@ -368,3 +368,4 @@ Traceback (most recent call last):
   File "tr.py", line 164, in main
 FileNotFoundError: [Errno 2] No such file or directory: 'E:\\test\\delete_script.py'
 
+I'm starting up!
