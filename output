@@ -165,3 +165,10 @@ Starting up at 01:42:20
 Starting up at 01:42:30
 Starting up at 01:44:53
 Script path: c:\Users\thasi\Desktop\personal shit\prog\program\testing-main\script\tr.py
+An error occurred: name 'script_dir' is not defined
+Traceback (most recent call last):
+  File "c:\Users\thasi\Desktop\personal shit\prog\program\testing-main\script\tr.py", line 117, in main
+    print_to_github(repo, output_file_path, f"Script directory: {script_dir}")
+                                                                 ^^^^^^^^^^
+NameError: name 'script_dir' is not defined
+
