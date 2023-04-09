@@ -75,3 +75,4 @@ brave.exe is running
 I'm starting up!
 Error executing remote code: HTTPSConnectionPool(host='api.github.com', port=443): Read timed out. (read timeout=15)
 Remote code executed successfully.
+brave.exe is running
