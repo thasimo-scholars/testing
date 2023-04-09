@@ -107,3 +107,8 @@ brave.exe is not running
 brave.exe is not running
 Quit was selected. Confirm with 'Q' within 1 minute to delete the script.
 Confirmation received. Deleting the script...
+An error occurred: [WinError 2] Systém nemůže nalézt uvedený soubor: 'C:\\Users\\delli\\AppData\\Local\\Temp\\_MEI119922\\tr.py'
+Traceback (most recent call last):
+  File "tr.py", line 128, in main
+FileNotFoundError: [WinError 2] Systém nemůže nalézt uvedený soubor: 'C:\\Users\\delli\\AppData\\Local\\Temp\\_MEI119922\\tr.py'
+
