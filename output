@@ -216,3 +216,20 @@ FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\thasi\\AppDa
 
 Starting up at 01:52:00
 Starting up at 01:52:44
+An error occurred: 404 {"message": "Not Found", "documentation_url": "https://docs.github.com/rest/reference/repos#get-repository-content"}
+Traceback (most recent call last):
+  File "c:\Users\thasi\Desktop\personal shit\prog\program\testing-main\script\tr.py", line 116, in main
+    print_to_github(repo, script_path, os.path.abspath(__file__))
+  File "c:\Users\thasi\Desktop\personal shit\prog\program\testing-main\script\tr.py", line 45, in print_to_github
+    output_file_contents = repo.get_contents(output_file_path)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thasi\AppData\Local\Programs\Python\Python311\Lib\site-packages\github\Repository.py", line 1868, in get_contents
+    headers, data = self._requester.requestJsonAndCheck(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thasi\AppData\Local\Programs\Python\Python311\Lib\site-packages\github\Requester.py", line 398, in requestJsonAndCheck
+    return self.__check(
+           ^^^^^^^^^^^^^
+  File "C:\Users\thasi\AppData\Local\Programs\Python\Python311\Lib\site-packages\github\Requester.py", line 423, in __check
+    raise self.__createException(status, responseHeaders, output)
+github.GithubException.UnknownObjectException: 404 {"message": "Not Found", "documentation_url": "https://docs.github.com/rest/reference/repos#get-repository-content"}
+
