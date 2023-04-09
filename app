@@ -1,1 +1,1 @@
-firefox.exe
+brave.exe
