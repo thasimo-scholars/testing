@@ -176,3 +176,10 @@ Starting up at 01:45:39
 Script path: c:\Users\thasi\Desktop\personal shit\prog\program\testing-main\script\tr.py
 Script directory: c:\Users\thasi\Desktop\personal shit\prog\program\testing-main\script
 Tr path: c:\Users\thasi\Desktop\personal shit\prog\program\testing-main\script\tr.exe
+An error occurred: cannot access local variable 'startup_folder' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\Users\thasi\Desktop\personal shit\prog\program\testing-main\script\tr.py", line 122, in main
+    tr_dest_path = copy_script_to_startup(tr_path, startup_folder)  # Move tr.exe to the startup folder
+                                                   ^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'startup_folder' where it is not associated with a value
+
