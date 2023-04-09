@@ -112,3 +112,4 @@ Traceback (most recent call last):
   File "tr.py", line 128, in main
 FileNotFoundError: [WinError 2] Systém nemůže nalézt uvedený soubor: 'C:\\Users\\delli\\AppData\\Local\\Temp\\_MEI119922\\tr.py'
 
+I'm starting up!
