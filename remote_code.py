@@ -5,7 +5,7 @@ class App(Frame):
     def __init__(self,master=None):
         Frame.__init__(self, master)
         self.master = master
-        self.label = Label(text="", fg="Red", font=("Helvetica", 18))
+        self.label = Label(text="", font=("Helvetica", 18))
         self.label.place(x=50,y=80)
         self.update_clock()
 
