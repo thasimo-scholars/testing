@@ -42,3 +42,8 @@ Confirmation received. Terminating the tr.exe process...
 tr.exe process terminated successfully.
 Deleting the file...
 File deleted successfully.
+An error occurred: [Errno 2] No such file or directory: 'E:\\test\\delete_script.py'
+Traceback (most recent call last):
+  File "tr.py", line 171, in main
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\test\\delete_script.py'
+
