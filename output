@@ -259,3 +259,8 @@ Quit was selected. Confirm with 'Q' within 1 minute to delete the script.
 5 seconds
 Confirmation received. Deleting the file...
 File not found or could not be deleted.
+An error occurred: [Errno 2] No such file or directory: 'E:\\test\\delete_script.py'
+Traceback (most recent call last):
+  File "tr.py", line 152, in main
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\test\\delete_script.py'
+
