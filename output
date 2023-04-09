@@ -184,3 +184,4 @@ Traceback (most recent call last):
 UnboundLocalError: cannot access local variable 'startup_folder' where it is not associated with a value
 
 Starting up at 01:46:22
+Script path: c:\Users\thasi\Desktop\personal shit\prog\program\testing-main\script\tr.py
