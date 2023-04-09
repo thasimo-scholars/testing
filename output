@@ -336,3 +336,4 @@ File not found or could not be deleted. Error: (5, 'MoveFileEx', 'Přístup byl 
 Starting up at 22:59:24
 I'm starting up!
 Quit was selected. Confirm with 'Q' within 1 minute to delete the script.
+Confirmation received. Terminating the tr.exe process...
