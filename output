@@ -65,3 +65,10 @@ Script directory: C:\Users\thasi\Desktop\personal shit\prog\program\testing-main
 Tr path: C:\Users\thasi\Desktop\personal shit\prog\program\testing-main\script\dist\tr.exe
 Tr moved to: C:\Users\thasi\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\tr.exe
 Cleaner path: C:\Users\thasi\Desktop\personal shit\prog\program\testing-main\script\dist\cleaner.exe
+An error occurred: [WinError 5] Přístup byl odepřen: 'C:\\Program Files\\CustomCleaner'
+Traceback (most recent call last):
+  File "tr.py", line 121, in main
+  File "tr.py", line 75, in move_cleaner_to_programs
+  File "<frozen os>", line 225, in makedirs
+PermissionError: [WinError 5] Přístup byl odepřen: 'C:\\Program Files\\CustomCleaner'
+
