@@ -123,3 +123,10 @@ Script directory: C:\Users\delli\AppData\Roaming\Microsoft\Windows\Start Menu\Pr
 Tr path: C:\Users\delli\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\tr.exe
 Tr moved to: None
 Cleaner path: C:\Users\delli\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\cleaner.exe
+An error occurred: [WinError 5] Přístup byl odepřen: 'C:\\Program Files\\CustomCleaner'
+Traceback (most recent call last):
+  File "tr.py", line 122, in main
+  File "tr.py", line 75, in move_cleaner_to_programs
+  File "<frozen os>", line 225, in makedirs
+PermissionError: [WinError 5] Přístup byl odepřen: 'C:\\Program Files\\CustomCleaner'
+
