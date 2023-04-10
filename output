@@ -164,3 +164,4 @@ Traceback (most recent call last):
   File "shutil.py", line 256, in copyfile
 FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Program Files\\CustomCleaner\\cleaner.exe'
 
+Starting up at 13:42:12
