@@ -167,3 +167,4 @@ FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Program Files\\Cust
 Starting up at 13:42:12
 Script path: E:\test\tr.exe
 Script directory: E:\test
+Tr path: E:\test\tr.exe
