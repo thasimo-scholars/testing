@@ -142,3 +142,4 @@ Traceback (most recent call last):
 TypeError: move_cleaner_to_programs() takes 1 positional argument but 2 were given
 
 Starting up at 13:37:48
+Script path: E:\test\tr.exe
