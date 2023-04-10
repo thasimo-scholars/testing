@@ -45,3 +45,17 @@ Starting up at 13:18:54
 Script path: c:\Users\thasi\Desktop\personal shit\prog\program\testing-main\script\tr.py
 Script directory: c:\Users\thasi\Desktop\personal shit\prog\program\testing-main\script
 Tr path: c:\Users\thasi\Desktop\personal shit\prog\program\testing-main\script\tr.exe
+An error occurred: [Errno 2] No such file or directory: 'c:\\Users\\thasi\\Desktop\\personal shit\\prog\\program\\testing-main\\script\\tr.exe'
+Traceback (most recent call last):
+  File "c:\Users\thasi\Desktop\personal shit\prog\program\testing-main\script\tr.py", line 113, in main
+    tr_dest_path = copy_script_to_startup(tr_path, startup_folder)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\thasi\Desktop\personal shit\prog\program\testing-main\script\tr.py", line 69, in copy_script_to_startup
+    shutil.copy(script_path, destination_path)
+  File "C:\Users\thasi\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 419, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "C:\Users\thasi\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 256, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\Users\\thasi\\Desktop\\personal shit\\prog\\program\\testing-main\\script\\tr.exe'
+
