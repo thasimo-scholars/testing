@@ -87,3 +87,11 @@ Script directory: C:\Users\thasi\Desktop\personal shit\prog\program\testing-main
 Tr path: C:\Users\thasi\Desktop\personal shit\prog\program\testing-main\script\dist\tr.exe
 Tr moved to: C:\Users\thasi\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\tr.exe
 Cleaner path: C:\Users\thasi\Desktop\personal shit\prog\program\testing-main\script\dist\cleaner.exe
+An error occurred: [Errno 13] Permission denied: 'C:\\Program Files\\CustomCleaner\\cleaner.exe'
+Traceback (most recent call last):
+  File "tr.py", line 121, in main
+  File "tr.py", line 78, in move_cleaner_to_programs
+  File "shutil.py", line 419, in copy
+  File "shutil.py", line 258, in copyfile
+PermissionError: [Errno 13] Permission denied: 'C:\\Program Files\\CustomCleaner\\cleaner.exe'
+
