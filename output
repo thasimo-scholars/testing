@@ -117,3 +117,4 @@ Traceback (most recent call last):
   File "<frozen os>", line 225, in makedirs
 PermissionError: [WinError 5] Přístup byl odepřen: 'C:\\Program Files\\CustomCleaner'
 
+Starting up at 13:30:58
