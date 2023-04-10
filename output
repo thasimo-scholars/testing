@@ -150,3 +150,17 @@ Cleaner path: E:\test\cleaner.exe
 Cleaner moved to: C:\Users\delli\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\cleaner.exe
 I'm starting up!
 Quit was selected. Confirm with 'Q' within 1 minute to delete the script.
+An error occurred: [Errno 2] No such file or directory: 'C:\\Program Files\\CustomCleaner\\cleaner.exe'
+Traceback (most recent call last):
+  File "shutil.py", line 825, in move
+FileNotFoundError: [WinError 3] Systém nemůže nalézt uvedenou cestu: 'C:\\Program Files\\CustomCleaner\\cleaner.exe' -> 'C:\\Users\\delli\\AppData\\Local\\Temp\\cleaner.exe'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "tr.py", line 149, in main
+  File "shutil.py", line 845, in move
+  File "shutil.py", line 436, in copy2
+  File "shutil.py", line 256, in copyfile
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Program Files\\CustomCleaner\\cleaner.exe'
+
