@@ -120,3 +120,4 @@ PermissionError: [WinError 5] Přístup byl odepřen: 'C:\\Program Files\\Custom
 Starting up at 13:30:58
 Script path: C:\Users\delli\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\tr.exe
 Script directory: C:\Users\delli\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+Tr path: C:\Users\delli\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\tr.exe
