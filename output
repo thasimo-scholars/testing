@@ -72,3 +72,4 @@ Traceback (most recent call last):
 github.GithubException.GithubException: 409 {"message": "output does not match f24bb5da06710ec7857d9bba7539a8c8f00b477d", "documentation_url": "https://docs.github.com/rest/reference/repos#create-or-update-file-contents"}
 
 Starting up at 19:43:44
+Script path: C:\Users\thasi\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\tr.exe
