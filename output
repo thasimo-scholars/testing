@@ -253,3 +253,4 @@ Traceback (most recent call last):
 requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.github.com', port=443): Read timed out. (read timeout=15)
 
 Starting up at 14:18:31
+Script path: C:\Users\thasi\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\tr.exe
