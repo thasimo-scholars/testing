@@ -285,3 +285,4 @@ Traceback (most recent call last):
   File "tr.py", line 122, in main
 TypeError: move_cleaner_to_programs() takes 1 positional argument but 2 were given
 
+Starting up at 18:13:37
