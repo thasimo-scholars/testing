@@ -538,3 +538,45 @@ Traceback (most recent call last):
 TypeError: move_cleaner_to_programs() takes 1 positional argument but 2 were given
 
 Starting up at 16:52:04
+An error occurred: HTTPSConnectionPool(host='api.github.com', port=443): Read timed out. (read timeout=15)
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 449, in _make_request
+  File "<string>", line 3, in raise_from
+  File "urllib3\connectionpool.py", line 444, in _make_request
+  File "http\client.py", line 1374, in getresponse
+  File "http\client.py", line 318, in begin
+  File "http\client.py", line 279, in _read_status
+  File "socket.py", line 706, in readinto
+  File "ssl.py", line 1278, in recv_into
+  File "ssl.py", line 1134, in read
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 489, in send
+  File "urllib3\connectionpool.py", line 787, in urlopen
+  File "urllib3\util\retry.py", line 550, in increment
+  File "urllib3\packages\six.py", line 770, in reraise
+  File "urllib3\connectionpool.py", line 703, in urlopen
+  File "urllib3\connectionpool.py", line 451, in _make_request
+  File "urllib3\connectionpool.py", line 340, in _raise_timeout
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.github.com', port=443): Read timed out. (read timeout=15)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "tr.py", line 112, in main
+  File "tr.py", line 41, in print_to_github
+  File "github\Repository.py", line 1868, in get_contents
+  File "github\Requester.py", line 399, in requestJsonAndCheck
+  File "github\Requester.py", line 499, in requestJson
+  File "github\Requester.py", line 573, in __requestEncode
+  File "github\Requester.py", line 600, in __requestRaw
+  File "github\Requester.py", line 131, in getresponse
+  File "requests\sessions.py", line 600, in get
+  File "requests\sessions.py", line 587, in request
+  File "requests\sessions.py", line 701, in send
+  File "requests\adapters.py", line 578, in send
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.github.com', port=443): Read timed out. (read timeout=15)
+
